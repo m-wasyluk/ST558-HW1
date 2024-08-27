@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "data_science_answers.html",
+    "href": "data_science_answers.html",
+    "title": "data_science_answers",
+    "section": "",
+    "text": "To me, it’s about being someone who is comfortable implementing the whole lifecycle of data from ingestion to transformation and visualization. A data scientist is one who knows how to use the tools to make that happen, can explain it, and has enough knowledge in statistics (though I know from the readings that some try to separate it) to understand when data is usable in what form."
+  },
+  {
+    "objectID": "data_science_answers.html#what-is-being-a-data-scientist-about",
+    "href": "data_science_answers.html#what-is-being-a-data-scientist-about",
+    "title": "data_science_answers",
+    "section": "",
+    "text": "To me, it’s about being someone who is comfortable implementing the whole lifecycle of data from ingestion to transformation and visualization. A data scientist is one who knows how to use the tools to make that happen, can explain it, and has enough knowledge in statistics (though I know from the readings that some try to separate it) to understand when data is usable in what form."
+  },
+  {
+    "objectID": "data_science_answers.html#what-similarities-and-differences-are-there-between-data-scientists-and-statisticians",
+    "href": "data_science_answers.html#what-similarities-and-differences-are-there-between-data-scientists-and-statisticians",
+    "title": "data_science_answers",
+    "section": "What similarities and differences are there between data scientists and statisticians?",
+    "text": "What similarities and differences are there between data scientists and statisticians?\nAt its simplest, I think it’s the difference between applied and theoretical work. My understanding is:\n\nA data scientist is applying programmatic and statistical processes to data to understand its implications.\nA statistician may do the same, but generally comes from a more academic perspective and might be well-suited to designing experiments or analyses based on mathematical statistics."
+  },
+  {
+    "objectID": "data_science_answers.html#how-do-i-view-myself-in-relation-to-these-two-areas",
+    "href": "data_science_answers.html#how-do-i-view-myself-in-relation-to-these-two-areas",
+    "title": "data_science_answers",
+    "section": "How do I view myself in relation to these two areas?",
+    "text": "How do I view myself in relation to these two areas?\nI’ve had a decent amount of theoretical education in statistics between undergrad and now. This is my first purely data science class, though I’ve had some introduction in the past and do some data wrangling and visualization for my job. Given that most of my day-to-day involves taking data and putting insights in front of customers, I’d say I fit more into the data scientist paradigm.\n\ny &lt;- density(iris$Petal.Width)\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstructure(y)\n\n\nCall:\n    density.default(x = iris$Petal.Width)\n\nData: iris$Petal.Width (150 obs.);  Bandwidth 'bw' = 0.2518\n\n       x                 y            \n Min.   :-0.6555   Min.   :0.0005219  \n 1st Qu.: 0.3222   1st Qu.:0.0830968  \n Median : 1.3000   Median :0.2650517  \n Mean   : 1.3000   Mean   :0.2551522  \n 3rd Qu.: 2.2778   3rd Qu.:0.4190136  \n Max.   : 3.2555   Max.   :0.4975026  \n\n\nBased on this output, we can see that y is of class density and is considered a list by R. For density, we can see the structure function gives us the exact function call we used in addition to some statistics that describe the probability density of the data.\n\n\n\n\n\n\n\n\n\nThis output gives us a smooth approximation of the probability density of iris petal widths."
+  }
+]
